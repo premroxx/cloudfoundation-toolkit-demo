@@ -30,7 +30,7 @@ pipeline {
             steps {
                 echo '------------------'
                 echo 'Creating $CONFIG'
-                sh '. ~/cft-env-vars && cd cft/community/cloud-foundation && cft apply $CONFIG'
+                sh '. ~/var/lib/jenkins/workspace/cft-env-vars && cd cft/community/cloud-foundation && cft apply $CONFIG'
             }
         }
     }
