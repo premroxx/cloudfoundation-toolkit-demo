@@ -6,6 +6,7 @@ pipeline {
     stages{
         stage('Checkout Repos') {
             steps {
+                echo 'whoami'
                 echo '------------------'
                 echo 'Cleaning dirs'
                 sh 'rm -rf cft'
