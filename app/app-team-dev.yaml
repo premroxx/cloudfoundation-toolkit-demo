@@ -14,8 +14,8 @@ resources:
       cluster:
         name: app-team-1-dev
         description: App Team 1 DEV GKE Cluster
-        network: $(out.network-app-team-1.network-app-team-1-dev.name)
-        subnetwork: subnet-app-team-1-dev
+        network: default
+        subnetwork: default
         nodeConfig:
           oauthScopes:
             - https://www.googleapis.com/auth/compute
