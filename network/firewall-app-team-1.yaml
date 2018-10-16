@@ -1,5 +1,5 @@
 name: firewall-app-team-1
-project: sourced-cft-demo-0
+project: premkuma-poc
 description: Firewall deployment for app-team-1
 
 imports:
