@@ -20,6 +20,8 @@ pipeline {
                 echo '------------------'
                 echo 'Checking CFT Version'
                 sh 'cft -v'
+                echo '-------------------'
+                sh 'printenv'
             }
         }
         stage('Execute CFT') {
