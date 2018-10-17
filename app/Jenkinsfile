@@ -25,7 +25,7 @@ pipeline {
         }
         stage('Execute CFT') {
             environment {
-                CONFIG="$WORKSPACE/app/prod.yaml"
+                CONFIG="$WORKSPACE/app/app-team-prod.yaml"
             }
             steps {
                 echo '------------------'
